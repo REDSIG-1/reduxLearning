@@ -40,4 +40,5 @@ const mapDispatchToProps = dispatch => ({
 
 export default connect( mapStateToProps, mapDispatchToProps )(NewTodoForm);
 
+// 1st Arg: 
 // 2nd Argument: Component we want to connect to the redux store
